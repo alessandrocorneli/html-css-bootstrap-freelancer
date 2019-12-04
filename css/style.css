@@ -66,13 +66,29 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
-  margin-bottom: 80px;
+}
+#box1{
+  background-image: url("../img/cabin.png");
+}
+#box2{
+  background-image: url("../img/cake.png");
+}
+#box3{
+  background-image: url("../img/circus.png");
+}
+#box4{
+  background-image: url("../img/game.png");
+}
+#box5{
+  background-image: url("../img/safe.png");
+}
+#box6{
+  background-image: url("../img/submarine.png");
 }
 .portfolio-box {
   width: 100%;
   height: 250px;
   margin-bottom: 30px;
-  background-color: blue;
   border-radius: 10px;
   background-position: center;
   background-repeat: no-repeat;
