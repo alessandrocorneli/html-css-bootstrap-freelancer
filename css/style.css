@@ -11,6 +11,14 @@
 .padding_bottom_80 {
   padding-bottom: 80px;
 }
+
+.avatar{
+  width: 200px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 30px;
+}
+
 .visible-lg{
   list-style: none;
   text-transform: uppercase;
@@ -42,6 +50,7 @@
   height: 100px;
   background: #2C3E50;
   line-height: 100px;
+  z-index: 1;
 }
 
 .jumbo {
@@ -56,16 +65,18 @@
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
+  margin-bottom: 15px;
 }
-.avatar{
-  width: 200px;
-  margin-left: 50%;
-  transform: translate(-50%);
+.jumbo h3{
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
 }
+
 #portfolio h2{
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
 }
 #box1{
   background-image: url("../img/cabin.png");
@@ -92,17 +103,137 @@
   border-radius: 10px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  cursor: pointer;
 }
-
+.linea{
+  width:100px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #2C3E50;
+  border-color: #2C3E50;
+}
+.star{
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/fi-xnsuxs-star-solid.png");
+  background-position:center;
+  background-size: cover;
+  transform: translateY(-50%);
+}
+.custom{
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  transform: translate(-50%);
+}
+#about h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.about-text{
+  color: #fff;
+  font-size: 20px;
+}
+.btn-download{
+  margin-top: 40px;
+  display: inline-block;
+  width: 200px;
+  height: 70px;
+  background-color: #1ABC9C;
+  color: white;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border: 2px solid white;
+  vertical-align: middle;
+  line-height: 50px;
+  border-radius: 10px;
+}
+.btn-download a{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+ .btn-download:hover{
+  text-decoration: none;
+  background-color: #fff;
+  border: 2px solid #2C3E50;
+}
+.btn-download a:hover{
+  color: #2C3E50;
+  text-decoration: none;
+}
+#contact h2{
+  color: #2C3E50;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.box-text{
+  height: 100px;
+  text-align: left;
+  vertical-align: middle;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #2C3E50;
+}
+.btn-send{
+  margin-top: 40px;
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  background-color: #1ABC9C;
+  color: white;
+  vertical-align: middle;
+  line-height: 45px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.wider{
+  width: 100%;
+  height: 1px;
+  background-color: #edeaea;
+  margin-top: 35px;
+}
 .footer_top {
-  background-color: purple;
+  background-color: #2C3E50;
+  color: #fff;
+  text-align: center;
+}
+.around-web a{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #fff;
+  border-radius: 100%;
 }
 .footer_bottom {
   padding: 20px 0;
-  background-color: darkblue;
+  background-color: #1A252F;
+  color: #fff;
 }
-
+.h3s{
+  font-size: 25px;
+  font-weight: bold;
+}
+.start-bs > p > a{
+  color: #1ABC9C;
+}
+.logo1{
+  background-image: url("../img/fi-snsuxs-facebook.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a[class*="logo"]{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 768px) {
   .wrapper_xs_100 {
